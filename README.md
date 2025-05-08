@@ -4,7 +4,7 @@
 **Release Year**: 2025  
 **Genre**: Drama, Thriller, Survival  
 **Episodes**: 9  
-**Platform**: Netflix (Unofficial Hindi Dubbed)  
+**Platform**: Netflix (official Hindi Dubbed)  
 
 ---
 

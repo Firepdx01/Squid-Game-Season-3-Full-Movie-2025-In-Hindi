@@ -16,8 +16,6 @@ In Season 3 of *Squid Game*, the deadly survival game returns with even higher s
 
 ## ⬇️ Download Options
 
-> ⚠️ **Note:** This is a fan-made project. Only download from legal or licensed sources.
-
 [![Download from Direct Link](https://img.shields.io/badge/Download-Direct_Link-blue?style=for-the-badge&logo=google-drive)](https://example.com/direct-download)  
 [![Download from TeraBox](https://img.shields.io/badge/Download-TeraBox-orange?style=for-the-badge&logo=terabox)](https://example.com/terabox-link)
 

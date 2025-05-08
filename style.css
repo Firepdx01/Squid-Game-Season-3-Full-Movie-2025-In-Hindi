@@ -1,103 +1,108 @@
-/* General Settings */
 body {
   font-family: 'Oxanium', sans-serif;
-  background-color: #f9f9f9;
+  background-color: #111;
+  color: #fff;
   margin: 0;
   padding: 0;
-  color: #333;
-  line-height: 1.6;
 }
 
 header, footer {
-  background-color: #111;
-  color: white;
+  background-color: #222;
+  padding: 20px;
   text-align: center;
-  padding: 1em 20px;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2rem;
+h1, h2 {
+  color: #ff3366;
+}
+
+p, li {
+  font-size: 1rem;
 }
 
 main {
   padding: 20px;
-  max-width: 1000px;
-  margin: auto;
 }
 
-/* Headings */
-h1, h2 {
-  color: #e50914;
-  margin-bottom: 10px;
+.description, .downloads, .features, .gallery, .file-info, .whitelist, .members, .ads {
+  margin-bottom: 40px;
 }
 
-/* Buttons */
-.button, .terabox, .whitelist button {
+.button {
   display: inline-block;
-  margin: 10px 5px;
-  padding: 10px 15px;
-  font-weight: bold;
-  background-color: #e50914;
+  background-color: #e60039;
   color: white;
+  padding: 12px 20px;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #c6002f;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  margin-right: 10px;
   border: none;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #00cc66;
+  color: white;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  transition: background 0.3s;
 }
 
-.button:hover, .terabox:hover, .whitelist button:hover {
-  background-color: #b40610;
+button:hover {
+  background-color: #00994d;
 }
 
-/* Lists */
 ul {
-  padding-left: 20px;
-  list-style-type: disc;
+  list-style: none;
+  padding-left: 0;
 }
 
-/* Gallery Grid */
+.members li {
+  background-color: #222;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
 .grid-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
 }
 
 .grid-gallery img {
   width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
+  border-radius: 10px;
+  border: 2px solid #333;
+  transition: transform 0.3s ease;
 }
 
 .grid-gallery img:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
-/* Sections */
-section {
-  margin-bottom: 40px;
-}
-
-/* Whitelist */
-.whitelist ul {
-  margin-top: 10px;
-  padding-left: 20px;
-}
-
-/* Responsive */
 @media (max-width: 600px) {
-  header h1 {
-    font-size: 1.5rem;
+  .button {
+    width: 100%;
+    text-align: center;
   }
 
-  .button, .terabox {
-    font-size: 14px;
-    padding: 8px 12px;
-  }
-
-  main {
-    padding: 10px;
+  input {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }

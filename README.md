@@ -14,6 +14,8 @@ In Season 3 of *Squid Game*, the deadly survival game returns with even higher s
 
 ---
 
+[🔗 View Website](https://firepdx01.github.io/Squid-Game-Season-3-Full-Movie-2025-In-Hindi/)
+
 ## ⬇️ Download Options
 
 [![Download from Direct Link](https://img.shields.io/badge/Download-Direct_Link-blue?style=for-the-badge&logo=google-drive)](https://example.com/direct-download)  

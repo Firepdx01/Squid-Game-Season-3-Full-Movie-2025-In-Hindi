@@ -1,110 +1,103 @@
-/* Global Styles */
+/* General Settings */
 body {
   font-family: 'Oxanium', sans-serif;
+  background-color: #f9f9f9;
   margin: 0;
   padding: 0;
-  background-color: #111;
-  color: #f5f5f5;
+  color: #333;
   line-height: 1.6;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Header */
-header {
+header, footer {
+  background-color: #111;
+  color: white;
   text-align: center;
-  padding: 40px 20px;
-  background: #222;
+  padding: 1em 20px;
 }
 
 header h1 {
+  margin: 0;
   font-size: 2rem;
-  margin-bottom: 10px;
 }
 
-header p {
-  font-size: 1.1rem;
-  color: #ccc;
-}
-
-/* Sections */
-section {
-  padding: 30px 20px;
+main {
+  padding: 20px;
   max-width: 1000px;
   margin: auto;
 }
 
-h2 {
-  color: #00ffcc;
-  border-bottom: 2px solid #00ffcc;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
+/* Headings */
+h1, h2 {
+  color: #e50914;
+  margin-bottom: 10px;
 }
 
 /* Buttons */
-.button {
+.button, .terabox, .whitelist button {
   display: inline-block;
-  background: #00ffcc;
-  color: #111;
-  padding: 12px 20px;
-  border-radius: 6px;
+  margin: 10px 5px;
+  padding: 10px 15px;
   font-weight: bold;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  transition: background 0.3s;
+  background-color: #e50914;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
 
-.button:hover {
-  background: #00ccaa;
+.button:hover, .terabox:hover, .whitelist button:hover {
+  background-color: #b40610;
 }
 
-.button.terabox {
-  background: #4477ff;
-  color: #fff;
-}
-
-.button.terabox:hover {
-  background: #3355cc;
-}
-
-/* Features List */
-.features ul {
-  list-style-type: square;
+/* Lists */
+ul {
   padding-left: 20px;
+  list-style-type: disc;
 }
 
-/* Gallery */
+/* Gallery Grid */
 .grid-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-  margin-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
 }
 
 .grid-gallery img {
   width: 100%;
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
 }
 
 .grid-gallery img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 12px #00ffcc;
+  transform: scale(1.03);
 }
 
-.grid-gallery a {
-  display: block;
+/* Sections */
+section {
+  margin-bottom: 40px;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #222;
-  color: #aaa;
-  font-size: 0.9rem;
+/* Whitelist */
+.whitelist ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .button, .terabox {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  main {
+    padding: 10px;
+  }
 }

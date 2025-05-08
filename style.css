@@ -1,0 +1,82 @@
+/* Google Font */
+body {
+  margin: 0;
+  font-family: 'Oxanium', sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(145deg, #ff004c, #6600cc);
+  color: white;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #00ffcc;
+  margin-top: 40px;
+}
+
+.description p {
+  font-size: 1.1em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.downloads {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #1e90ff;
+  color: white;
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #0077cc;
+}
+
+.button.terabox {
+  background-color: #ff8800;
+}
+
+.button.terabox:hover {
+  background-color: #e07200;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 40px;
+}

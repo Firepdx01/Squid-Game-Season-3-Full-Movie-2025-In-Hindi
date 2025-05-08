@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="google-site-verification" content="IK5N5BFNX9oZRaZY32-VbG56fIRkn7Vdm6tjHfEai7c" />
-   <meta name="google-adsense-account" content="ca-pub-9209799824102546">
+  <meta name="google-site-verification" content="IK5N5BFNX9oZRaZY32-VbG56fIRkn7Vdm6tjHfEai7c" />
+  <meta name="google-adsense-account" content="ca-pub-9209799824102546">
   <title>Squid Game Season 3 (2025) - Hindi</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
@@ -13,18 +13,69 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9209799824102546"
      crossorigin="anonymous"></script>
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9209799824102546"
-     crossorigin="anonymous"></script>
-<!-- main12 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9209799824102546"
-     data-ad-slot="2195306505"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+  <!-- Ad Slot -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-9209799824102546"
+       data-ad-slot="2195306505"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <style>
+    body {
+      font-family: 'Oxanium', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header, footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+    h1, h2 {
+      color: #e50914;
+    }
+    .button, .terabox, .whitelist button {
+      display: inline-block;
+      margin: 10px 5px;
+      padding: 10px 15px;
+      font-weight: bold;
+      background-color: #e50914;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+    }
+    .button:hover, .terabox:hover, .whitelist button:hover {
+      background-color: #b40610;
+    }
+    main {
+      padding: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .grid-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .grid-gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .whitelist ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -86,6 +137,26 @@
       </p>
     </section>
 
+    <!-- ✅ Whitelist Feature Section -->
+    <section class="whitelist">
+      <h2>✅ Whitelist Access</h2>
+      <button onclick="addToWhitelist()">Join Whitelist</button>
+      <button onclick="showWhitelist()">Show Members</button>
+      <ul id="whitelistMembers" style="display:none;"></ul>
+    </section>
+
+    <!-- 🚀 Upcoming Features -->
+    <section class="upcoming-features">
+      <h2>🚀 Upcoming Features</h2>
+      <ul>
+        <li>Live Chat with Other Fans</li>
+        <li>Episode Rating System with Graphs</li>
+        <li>Dark Mode Switch</li>
+        <li>Progress Tracker for Episodes</li>
+        <li>Fan Art Submission Section</li>
+      </ul>
+    </section>
+
     <section class="ads">
       <h2>🔔 Sponsored</h2>
       <!-- Google Ad Unit -->
@@ -104,5 +175,35 @@
   <footer>
     <p>🔒 This is a fan-made site. Please watch the original show on Netflix to support the creators.</p>
   </footer>
+
+  <!-- JS for Whitelist -->
+  <script>
+    let whitelist = [];
+
+    function addToWhitelist() {
+      const name = prompt("Enter your name to join the whitelist:");
+      if (name && !whitelist.includes(name)) {
+        whitelist.push(name);
+        alert(`${name} has been added to the whitelist!`);
+      } else if (whitelist.includes(name)) {
+        alert("You're already whitelisted.");
+      }
+    }
+
+    function showWhitelist() {
+      const list = document.getElementById("whitelistMembers");
+      list.innerHTML = "";
+      if (whitelist.length === 0) {
+        list.innerHTML = "<li>No members yet.</li>";
+      } else {
+        whitelist.forEach(member => {
+          const li = document.createElement("li");
+          li.textContent = member;
+          list.appendChild(li);
+        });
+      }
+      list.style.display = "block";
+    }
+  </script>
 </body>
 </html>

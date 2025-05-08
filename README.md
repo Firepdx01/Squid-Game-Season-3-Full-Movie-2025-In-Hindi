@@ -14,14 +14,39 @@ In Season 3 of *Squid Game*, the deadly survival game returns with even higher s
 
 ---
 
-## ⬇️ Download
+## ⬇️ Download Options
 
-> **Note:** This is a fan-made project. Only download from legal or licensed sources.
+> ⚠️ **Note:** This is a fan-made project. Only download from legal or licensed sources.
 
-[![Download](https://img.shields.io/badge/Download-Squid_Game_Season_3_Hindi-blue?style=for-the-badge&logo=netflix)](https://example.com/download-squid-game-season-3-hindi)
+[![Download from Direct Link](https://img.shields.io/badge/Download-Direct_Link-blue?style=for-the-badge&logo=google-drive)](https://example.com/direct-download)  
+[![Download from TeraBox](https://img.shields.io/badge/Download-TeraBox-orange?style=for-the-badge&logo=terabox)](https://example.com/terabox-link)
+
+---
+
+## 🆕 What's New (10 Features)
+
+1. ✅ **Full Season 3 Storyline Overview** – Summarized plot with key character arcs.
+2. 🎭 **Character List & Actor Bios** – Info about cast and their roles in Season 3.
+3. 🌐 **Multi-language Subtitles Support** – English, Hindi, Korean, and Spanish subs.
+4. 📸 **Screenshots & Episode Posters** – High-quality visuals from each episode.
+5. 🗓️ **Release Date Timeline** – Episode-by-episode air dates for 2025.
+6. 🛡️ **Fan Theory Section** – Open discussion on Reddit/Discord links included.
+7. 📁 **Behind-the-Scenes Gallery** – Fan-collected interviews, bloopers, etc.
+8. 🎧 **OST Playlist (Unofficial)** – Spotify and YouTube music playlists.
+9. 🧩 **Game Breakdown** – Detailed info about new survival games introduced.
+10. 🎮 **Fan-Made Game (Beta)** – Link to download an Unreal/Unity demo based on Season 3 (if available).
+
+---
+
+## 📂 File Info
+
+- **Format**: MP4 / MKV  
+- **Resolution**: 480p, 720p, 1080p  
+- **File Size**: ~300MB to 1.2GB per episode  
+- **Audio**: Dual (Korean + Hindi)
 
 ---
 
 ## 🔒 Disclaimer
 
-This repository does not host or link to any pirated content. The purpose of this README is informational and for fan community discussions only. Please support the original creators by watching it on official platforms.
+This repository does not host or distribute any copyrighted content. This README is for **educational and fan-discussion purposes** only. Please watch the official release on **Netflix** and support the creators.
